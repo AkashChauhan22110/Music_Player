@@ -1,5 +1,3 @@
-console.log("Welcome to Spotify");
-
 // Initialize the Variables
 let songIndex = 0;
 let audioElement = new Audio("songs/1.mp3");
@@ -36,27 +34,27 @@ let songs = [
     coverPath: "covers/5.jpg",
   },
   {
-    songName: "Rabba - Salam-e-Ishq",
+    songName: "Rabba ",
     filePath: "songs/2.mp3",
     coverPath: "covers/6.jpg",
   },
   {
-    songName: "Sakhiyaan - Salam-e-Ishq",
+    songName: "Sakhiyaan",
     filePath: "songs/2.mp3",
     coverPath: "covers/7.jpg",
   },
   {
-    songName: "Bhula Dena - Salam-e-Ishq",
+    songName: "Bhula Dena",
     filePath: "songs/2.mp3",
     coverPath: "covers/8.jpg",
   },
   {
-    songName: "Tumhari Kasam - Salam-e-Ishq",
+    songName: "Tumhari Kasam",
     filePath: "songs/2.mp3",
     coverPath: "covers/9.jpg",
   },
   {
-    songName: "Na Jaana - Salam-e-Ishq",
+    songName: "Na Jaana",
     filePath: "songs/4.mp3",
     coverPath: "covers/10.jpg",
   },

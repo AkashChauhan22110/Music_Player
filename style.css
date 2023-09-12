@@ -104,6 +104,13 @@ nav ul li {
   cursor: pointer;
 }
 
+.div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .songInfo {
   padding: 2%;
   position: absolute;
