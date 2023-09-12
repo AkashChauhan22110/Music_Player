@@ -92,8 +92,6 @@ myProgressBar.addEventListener("change", () => {
     (myProgressBar.value * audioElement.duration) / 100;
 });
 
-
-
 const makeAllPlays = () => {
   Array.from(document.getElementsByClassName("songItemPlay")).forEach(
     (element) => {
