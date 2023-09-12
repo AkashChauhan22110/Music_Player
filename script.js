@@ -79,6 +79,7 @@ masterPlay.addEventListener("click", () => {
     gif.style.opacity = 0;
   }
 });
+
 // Listen to Events
 audioElement.addEventListener("timeupdate", () => {
   // Update Seekbar
@@ -90,6 +91,8 @@ myProgressBar.addEventListener("change", () => {
   audioElement.currentTime =
     (myProgressBar.value * audioElement.duration) / 100;
 });
+
+
 
 const makeAllPlays = () => {
   Array.from(document.getElementsByClassName("songItemPlay")).forEach(
